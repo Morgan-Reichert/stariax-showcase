@@ -48,13 +48,13 @@ const ContactSection = () => {
             {
               icon: Mail,
               title: "Email",
-              value: "contact@stariax.be",
-              href: "mailto:contact@stariax.be",
+              value: "stariax.dev.a@outlook.com",
+              href: "mailto:stariax.dev.a@outlook.com",
             },
             {
               icon: Linkedin,
               title: "LinkedIn",
-              value: "Stariax",
+              value: "Stariax Group",
               href: "https://www.linkedin.com/company/stariax",
             },
           ].map((item, i) => (
