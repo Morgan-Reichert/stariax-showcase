@@ -1,3 +1,51 @@
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,40:302b63,100:7c3aed&height=160&section=header&text=Stariax%20Showcase&fontSize=36&fontColor=ffffff&fontAlignY=45&desc=Site%20vitrine%20officiel%20·%20STARIAX%20Belgium%20·%20Bruxelles&descAlignY=68&descColor=c4b5fd" />
+
+</div>
+
+<div align="center">
+
+[![STARIAX](https://img.shields.io/badge/Groupe-STARIAX-7c3aed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Morgan-Reichert)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
+[![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
+[![Live](https://img.shields.io/badge/statut-Live%20✓-10b981?style=for-the-badge)](#)
+
+</div>
+
+---
+
+## 📸 Aperçu
+
+> 🖼️ **Pour ajouter tes screenshots :** Upload tes images dans ce repo (`Add file` → `Upload files`), puis remplace les liens ci-dessous.
+
+<table>
+<tr>
+<td width="100%" align="center">
+
+![Hero Section](https://placehold.co/900x400/0f0c29/a78bfa?text=📸+Screenshot+Hero+—+Section+principale)
+*Section principale*
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+![Projets](https://placehold.co/600x340/1e1b4b/c4b5fd?text=📸+Section+Projets)
+*Section projets*
+
+</td>
+<td width="50%" align="center">
+
+![Contact](https://placehold.co/600x340/302b63/ffffff?text=📸+Section+Contact)
+*Section contact*
+
+</td>
+</tr>
+</table>
+
+---
+
 # Stariax Showcase
 
 > Site vitrine officiel du groupe technologique Stariax Belgium — Bruxelles
@@ -79,3 +127,4 @@ stariax-showcase/
 ---
 
 *Stariax Belgium — Bruxelles, 2026*
+
