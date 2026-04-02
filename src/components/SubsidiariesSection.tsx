@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Bot, Brain, MessageSquare, Shield, Heart, Activity, FileText, Moon, PartyPopper, MapPin, Users } from "lucide-react";
+import { Bot, Brain, MessageSquare, Shield, Heart, Activity, FileText, Moon, PartyPopper, MapPin, Users, Github, ExternalLink } from "lucide-react";
 
 const subsidiaries = [
   {
@@ -16,6 +16,8 @@ const subsidiaries = [
     gradient: "from-primary to-primary/60",
     heroIcon: Bot,
     accentColor: "hsl(228 60% 65%)",
+    githubUrl: "https://github.com/Morgan-Reichert/challenger-ia",
+    liveUrl: "https://challenger-ia-nine.vercel.app",
   },
   {
     name: "MindScope",
@@ -30,6 +32,8 @@ const subsidiaries = [
     gradient: "from-secondary to-secondary/60",
     heroIcon: Brain,
     accentColor: "hsl(35 40% 75%)",
+    githubUrl: "https://github.com/Morgan-Reichert/mindscope",
+    liveUrl: "https://mindscope-eight.vercel.app",
   },
   {
     name: "NightWatch",
@@ -44,6 +48,8 @@ const subsidiaries = [
     gradient: "from-purple-500 to-pink-500",
     heroIcon: PartyPopper,
     accentColor: "hsl(270 60% 60%)",
+    githubUrl: "https://github.com/Morgan-Reichert/nightwatch",
+    liveUrl: null,
   },
 ];
 
@@ -150,6 +156,32 @@ const SubsidiaryCard = ({ sub, index }: { sub: typeof subsidiaries[0]; index: nu
               {f.label}
             </motion.div>
           ))}
+        </div>
+
+        {/* Links */}
+        <div className="mt-8 flex flex-wrap gap-3">
+          <motion.a
+            href={sub.githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.05, y: -2 }}
+            className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-5 py-3 text-sm font-medium text-foreground transition-colors hover:border-primary/50 hover:text-primary"
+          >
+            <Github size={16} />
+            Voir le code
+          </motion.a>
+          {sub.liveUrl && (
+            <motion.a
+              href={sub.liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.05, y: -2 }}
+              className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+            >
+              <ExternalLink size={16} />
+              Voir le projet
+            </motion.a>
+          )}
         </div>
       </motion.div>
 
